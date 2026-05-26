@@ -95,7 +95,7 @@ Paid should wait until the Swarms account is eligible for paid marketplace listi
 Upload:
 
 ```text
-dealscope-cover.png
+dealscope-cover-premium.png
 ```
 
 ## Quality Notes For Reviewer

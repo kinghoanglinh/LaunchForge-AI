@@ -123,3 +123,4 @@ legal/regulatory assumptions independently.
 - `launch_checklist.md`: pre-submit checklist.
 - `CHANGELOG.md`: version notes.
 - `dealscope-cover.png`: 16:9 marketplace media.
+- `dealscope-cover-premium.png`: preferred premium 16:9 marketplace media.
