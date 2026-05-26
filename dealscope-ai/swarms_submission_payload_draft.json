@@ -1,0 +1,48 @@
+{
+  "productType": "prompt",
+  "name": "DealScope AI",
+  "category": "Finance",
+  "secondaryCategory": "Research",
+  "description": "DealScope AI is a structured startup due diligence prompt for founders, angel investors, accelerator mentors, and Web3 builders. Provide a startup name, pitch, or brief company description, and DealScope generates an analyst-style memo covering market intelligence, competitive moat, team and execution, business model, unit economics, risk flags, assumptions, and a GO / CONDITIONAL GO / NO-GO verdict. It is designed for fast first-pass evaluation, founder self-review, investor pre-screening, accelerator feedback, and SEA/Vietnam-aware startup analysis. DealScope does not pull live data and does not provide financial, legal, tax, or investment advice.",
+  "promptFile": "dealscope_prompt_v1.md",
+  "tags": "Startup, Due Diligence, VC, Investment Research, Founder Tools, SEA, Risk Analysis, Finance",
+  "useCases": [
+    {
+      "title": "Validate a startup idea before building",
+      "description": "Founders can paste a rough startup idea and receive a structured memo that highlights market strength, risks, missing assumptions, and whether the idea deserves further validation."
+    },
+    {
+      "title": "Pre-screen inbound startup pitches",
+      "description": "Angel investors and scouts can turn a short pitch into a first-pass due diligence memo with market, moat, team, business model, and risk analysis."
+    },
+    {
+      "title": "Create accelerator mentor feedback",
+      "description": "Mentors can use DealScope to produce a consistent feedback framework for portfolio startups, including next due diligence questions and validation steps."
+    },
+    {
+      "title": "Analyze SEA/Vietnam startup opportunities",
+      "description": "Builders operating in Southeast Asia can get analysis that considers local market dynamics when relevant, while clearly separating assumptions from verified facts."
+    }
+  ],
+  "pricing": "Free",
+  "media": "dealscope-cover-premium.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/kinghoanglinh/LaunchForge-AI/tree/prompt/dealscope-ai"
+    },
+    {
+      "name": "README",
+      "url": "https://github.com/kinghoanglinh/LaunchForge-AI/blob/prompt/dealscope-ai/dealscope-ai/README.md"
+    }
+  ],
+  "qualityNotes": [
+    "Explicit non-advice disclaimer",
+    "No-hallucination guardrails",
+    "Sparse-input behavior",
+    "Assumptions log",
+    "Risk register",
+    "Verdict calibration",
+    "QA test plan"
+  ]
+}
