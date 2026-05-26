@@ -110,7 +110,16 @@ legal/regulatory assumptions independently.
 
 - `dealscope_prompt_v1.md`: main prompt product.
 - `listing_copy.md`: Swarms Marketplace fields.
+- `swarms_submission_fields.md`: copy-paste submission fields for Swarms.
+- `swarms_submission_payload_draft.json`: structured payload draft.
 - `example_inputs.md`: sample inputs for testing.
 - `example_output_abbreviated.md`: abbreviated memo example.
+- `sample_memos.md`: additional abbreviated sample memos.
+- `qa_test_plan.md`: acceptance criteria and test matrix.
+- `review_seeding_plan.md`: honest early-feedback plan.
+- `paid_pro_roadmap.md`: paid upgrade strategy after eligibility.
+- `dealscope_pro_prompt_draft.md`: paid pro prompt draft for later launch.
+- `pro_listing_copy.md`: paid pro listing copy draft.
 - `launch_checklist.md`: pre-submit checklist.
+- `CHANGELOG.md`: version notes.
 - `dealscope-cover.png`: 16:9 marketplace media.
