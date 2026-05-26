@@ -1,0 +1,105 @@
+{
+  "market_analysis": {
+    "category": "Other",
+    "target_buyer": "Swarms creators who want to publish prompts and agents faster",
+    "buyer_pain": "Creators have raw AI ideas but lose time turning them into clear, buyer-ready marketplace listings.",
+    "why_now": "Agent marketplaces are getting crowded, so polished positioning and valid payloads help creators stand out.",
+    "competition_note": "Most listing helpers only write copy. This kit also prepares schema-friendly payloads.",
+    "positioning": "A practical vendor copilot for turning raw ideas into publishable Swarms Marketplace assets."
+  },
+  "listing": {
+    "name": "Swarms Vendor Copilot Kit",
+    "tagline": "Turn raw AI ideas into marketplace-ready listings and valid Swarms payloads.",
+    "description": "Swarms Vendor Copilot Kit helps creators package prompts and agents for the Swarms Marketplace. It turns a rough idea into a buyer-focused listing with category, positioning, title, description, tags, use cases, demo prompts, pricing angle, and a launch checklist. It also prepares clean prompt or agent payloads that match the public Swarms add-prompt and add-agent schemas, reducing formatting mistakes before publication.",
+    "tags": [
+      "Swarms Marketplace",
+      "Agent Builder",
+      "Prompt Builder",
+      "Listing Optimization",
+      "Creator Tools",
+      "Payload Validation"
+    ],
+    "use_cases": [
+      {
+        "title": "Package a raw prompt idea",
+        "description": "Convert a one-sentence prompt idea into a complete marketplace listing with clear buyer pain, tags, and demo prompts."
+      },
+      {
+        "title": "Prepare an agent listing",
+        "description": "Create a structured agent description, use cases, requirements, and payload draft before submitting to Swarms."
+      },
+      {
+        "title": "Audit listing quality",
+        "description": "Identify weak positioning, vague claims, missing examples, and schema issues before publishing."
+      }
+    ],
+    "demo_prompts": [
+      "Package this idea as a Swarms agent: an AI assistant that analyzes ad spend CSVs for Shopify stores and finds wasted budget.",
+      "Turn this prompt into a marketplace listing: a legal intake assistant for small law firms that drafts client summaries without giving legal advice.",
+      "Audit this listing and make it more specific for buyers: AI productivity coach for founders."
+    ],
+    "pricing_angle": "Sell as a creator productivity kit for marketplace vendors who want faster publishing and better conversion.",
+    "trust_and_safety_notes": [
+      "Avoid unsupported income guarantees.",
+      "Use assistive language for regulated industries.",
+      "Tell creators to review payloads before API submission."
+    ]
+  },
+  "implementation_brief": {
+    "product_type": "prompt",
+    "core_prompt_or_agent_behavior": "You are Marketplace Listing Strategist, a specialist that turns raw AI product ideas into polished Swarms Marketplace listings. Produce JSON with market analysis, listing copy, use cases, demo prompts, implementation notes, payload drafts, quality score, warnings, and next improvements.",
+    "recommended_requirements": [],
+    "integration_notes": [
+      "Use the prompt to generate the listing package.",
+      "Run the listing package through swarms_payload_builder.py to validate prompt or agent payloads.",
+      "Review the generated output before submitting to Swarms."
+    ],
+    "launch_checklist": [
+      "Confirm product type is prompt or agent.",
+      "Verify name and description are specific.",
+      "Include 3-5 concrete use cases.",
+      "Include tags for domain, buyer, and workflow.",
+      "Run payload validation before publishing."
+    ]
+  },
+  "payload_draft": {
+    "prompt_payload": {
+      "name": "Marketplace Listing Strategist",
+      "prompt": "You are Marketplace Listing Strategist, a specialist for turning raw AI product ideas into polished Swarms Marketplace listings. Given an idea and product type, produce buyer positioning, category, title, tagline, description, tags, use cases, demo prompts, pricing angle, implementation notes, launch checklist, payload draft, quality score, warnings, and next improvements. Output valid JSON only.",
+      "description": "A structured prompt that helps Swarms creators turn raw AI product ideas into marketplace-ready listings. It creates buyer-focused positioning, descriptions, tags, use cases, demo prompts, pricing angles, safety notes, implementation briefs, and payload drafts for prompt or agent submissions.",
+      "useCases": [
+        {
+          "title": "Create a listing from a raw idea",
+          "description": "Transform a brief AI product idea into a complete Swarms Marketplace listing package."
+        },
+        {
+          "title": "Improve weak marketplace copy",
+          "description": "Rewrite generic product descriptions into sharper buyer-focused positioning with concrete workflows."
+        },
+        {
+          "title": "Prepare payload drafts",
+          "description": "Generate schema-friendly payload drafts for prompt and agent listings before validation."
+        }
+      ],
+      "tags": "Swarms Marketplace, Agent Builder, Prompt Builder, Listing Optimization, Creator Tools"
+    },
+    "agent_payload": null,
+    "tool_payload": null
+  },
+  "quality_score": {
+    "score": 91,
+    "strengths": [
+      "Clear buyer: Swarms creators and vendors.",
+      "Specific workflow from raw idea to listing payload.",
+      "Differentiated by pairing strategy prompt with validator tool."
+    ],
+    "warnings": [
+      "Submission still requires user review and a valid Swarms API key if automated later."
+    ],
+    "next_improvements": [
+      "Add direct API submission after authentication.",
+      "Add support for tool listing schemas when public schema is confirmed.",
+      "Add a batch mode for creators publishing many listings."
+    ]
+  }
+}
