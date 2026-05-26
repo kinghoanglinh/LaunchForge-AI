@@ -1,0 +1,49 @@
+{
+  "productType": "agent",
+  "name": "DealScope Agent",
+  "category": "Finance",
+  "secondaryCategory": "Research",
+  "description": "DealScope Agent is a complete startup due diligence workflow for founders, angel investors, accelerator mentors, and Web3 builders. It turns startup ideas, pitches, or company descriptions into structured analyst-style diligence packages with market analysis, customer pain, competitive moat, team assessment, business model review, go-to-market analysis, risk register, red-team critique, fundraising readiness, validation experiments, investor questions, assumptions log, and a calibrated GO / CONDITIONAL GO / NO-GO verdict. Unlike a plain prompt, DealScope Agent includes helper tools for startup profile normalization, input completeness scoring, SEA/Vietnam context detection, diligence question generation, memo quality validation, and structured output packaging.",
+  "agentFile": "dealscope_agent.py",
+  "language": "python",
+  "requirements": [
+    {
+      "package": "swarms",
+      "installation": "pip install -U swarms"
+    }
+  ],
+  "tags": "Startup, Due Diligence, VC, Investment Research, Founder Tools, Agent Workflow, Risk Analysis, Finance",
+  "useCases": [
+    {
+      "title": "Create complete startup diligence memos",
+      "description": "Turn a raw startup idea, pitch, or company description into a structured analyst-style memo with market, moat, team, business model, risk, and verdict sections."
+    },
+    {
+      "title": "Red-team a startup thesis",
+      "description": "Stress-test the strongest argument against a startup, likely failure modes, hidden assumptions, and evidence that would change the view."
+    },
+    {
+      "title": "Assess fundraising readiness",
+      "description": "Evaluate whether a startup is not ready, pre-seed narrative ready, seed-ready if proof points hold, or a strong fundraising candidate."
+    },
+    {
+      "title": "Build validation experiment plans",
+      "description": "Convert uncertainty into experiments with hypotheses, methods, success metrics, timelines, and failure signals."
+    }
+  ],
+  "pricing": {
+    "type": "Paid",
+    "usd": 10
+  },
+  "media": "dealscope-agent-cover.png",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/kinghoanglinh/LaunchForge-AI/tree/agent/dealscope-agent"
+    },
+    {
+      "name": "README",
+      "url": "https://github.com/kinghoanglinh/LaunchForge-AI/blob/agent/dealscope-agent/dealscope-agent/README.md"
+    }
+  ]
+}
