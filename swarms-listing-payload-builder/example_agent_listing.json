@@ -1,0 +1,56 @@
+{
+  "listing": {
+    "name": "LaunchForge AI",
+    "description": "A marketplace launch strategist for Swarms creators that turns raw AI product ideas into structured launch packages with buyer positioning, listing copy, use cases, demo prompts, payload drafts, and quality validation.",
+    "tags": [
+      "Swarms Marketplace",
+      "Agent Builder",
+      "Prompt Builder",
+      "Listing Optimization",
+      "Creator Tools"
+    ],
+    "use_cases": [
+      {
+        "title": "Create marketplace listings from raw ideas",
+        "description": "Turn a brief AI product idea into a complete Swarms Marketplace listing."
+      },
+      {
+        "title": "Prepare prompt and agent payload drafts",
+        "description": "Generate structured payload drafts for prompt and agent submissions."
+      },
+      {
+        "title": "Audit listing quality before launch",
+        "description": "Flag vague positioning, weak buyer pain, missing examples, risky claims, and metadata gaps."
+      }
+    ]
+  },
+  "payload_draft": {
+    "agent_payload": {
+      "name": "LaunchForge AI",
+      "agent": "from launchforge_agent import run_launchforge",
+      "description": "A marketplace launch strategist for Swarms creators that turns raw AI product ideas into structured launch packages with buyer positioning, listing copy, use cases, demo prompts, payload drafts, and quality validation.",
+      "language": "python",
+      "useCases": [
+        {
+          "title": "Create marketplace listings from raw ideas",
+          "description": "Turn a brief AI product idea into a complete Swarms Marketplace listing."
+        },
+        {
+          "title": "Prepare prompt and agent payload drafts",
+          "description": "Generate structured payload drafts for prompt and agent submissions."
+        },
+        {
+          "title": "Audit listing quality before launch",
+          "description": "Flag vague positioning, weak buyer pain, missing examples, risky claims, and metadata gaps."
+        }
+      ],
+      "requirements": [
+        {
+          "package": "swarms",
+          "installation": "pip install -U swarms"
+        }
+      ],
+      "tags": "Swarms Marketplace, Agent Builder, Listing Optimization, Creator Tools"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "listing": {
+    "name": "Marketplace Listing Strategist",
+    "description": "A structured prompt that helps Swarms creators turn raw AI product ideas into marketplace-ready listings with positioning, tags, use cases, demo prompts, and launch warnings.",
+    "tags": [
+      "Swarms Marketplace",
+      "Prompt Builder",
+      "Creator Tools",
+      "Listing Optimization"
+    ],
+    "use_cases": [
+      {
+        "title": "Create a listing from a raw idea",
+        "description": "Transform a short product idea into a complete marketplace listing."
+      },
+      {
+        "title": "Improve weak launch copy",
+        "description": "Rewrite generic descriptions into buyer-focused positioning."
+      },
+      {
+        "title": "Prepare payload drafts",
+        "description": "Draft schema-friendly fields before publishing to Swarms."
+      }
+    ]
+  },
+  "payload_draft": {
+    "prompt_payload": {
+      "name": "Marketplace Listing Strategist",
+      "prompt": "You are a marketplace listing strategist. Turn raw AI product ideas into polished Swarms Marketplace listings with category, buyer pain, description, tags, use cases, demo prompts, and quality warnings.",
+      "description": "A structured prompt that helps Swarms creators turn raw AI product ideas into marketplace-ready listings with positioning, tags, use cases, demo prompts, and launch warnings.",
+      "useCases": [
+        {
+          "title": "Create a listing from a raw idea",
+          "description": "Transform a short product idea into a complete marketplace listing."
+        },
+        {
+          "title": "Improve weak launch copy",
+          "description": "Rewrite generic descriptions into buyer-focused positioning."
+        },
+        {
+          "title": "Prepare payload drafts",
+          "description": "Draft schema-friendly fields before publishing to Swarms."
+        }
+      ],
+      "tags": "Swarms Marketplace, Prompt Builder, Creator Tools, Listing Optimization"
+    }
+  }
+}
